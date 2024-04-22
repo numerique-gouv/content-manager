@@ -342,7 +342,7 @@ class CommonStreamBlock(blocks.StreamBlock):
     image = ImageBlock(label=_("Image"))
     video = VideoBlock(label=_("Video"))
     quote = QuoteBlock(label=_("Quote"))
-    text_cta = TextAndCTA(label=_("Text and call to action"))
+    text_cta = TextAndCTA(label=_("Text with call to action"))
     iframe = IframeBlock(label=_("Iframe"))
 
     class Meta:
@@ -420,6 +420,7 @@ STREAMFIELD_COMMON_BLOCKS = [
     ("video", VideoBlock(label=_("Video"))),
     ("accordions", AccordionsBlock(label=_("Accordions"))),
     ("stepper", StepperBlock(label=_("Stepper"))),
+    ("text_and_cta", TextAndCTA(label=_("Text with call to action"))),
     ("tags_list", TagListBlock(label=_("Tag list"))),
     ("markdown", MarkdownBlock(label=_("Markdown"))),
     ("separator", SeparatorBlock(label=_("Separator"))),

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-22 15:02+0200\n"
-"PO-Revision-Date: 2024-04-22 15:05+0200\n"
+"POT-Creation-Date: 2024-04-22 16:12+0200\n"
+"PO-Revision-Date: 2024-04-22 16:12+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -344,9 +344,9 @@ msgstr "URL de la vidéo"
 msgid "Video"
 msgstr "Vidéo"
 
-#: content_manager/blocks.py:345
-msgid "Text and call to action"
-msgstr "Texte et appel à action"
+#: content_manager/blocks.py:345 content_manager/blocks.py:423
+msgid "Text with call to action"
+msgstr "Texte avec appel à action"
 
 #: content_manager/blocks.py:346
 msgid "Iframe"
@@ -400,31 +400,31 @@ msgstr "Accordéons"
 msgid "Stepper"
 msgstr "Étapier"
 
-#: content_manager/blocks.py:423
+#: content_manager/blocks.py:424
 msgid "Tag list"
 msgstr "Liste de tags"
 
-#: content_manager/blocks.py:424
+#: content_manager/blocks.py:425
 msgid "Markdown"
 msgstr "Markdown"
 
-#: content_manager/blocks.py:425
+#: content_manager/blocks.py:426
 msgid "Separator"
 msgstr "Séparateur"
 
-#: content_manager/blocks.py:426
+#: content_manager/blocks.py:427
 msgid "Multiple columns"
 msgstr "Multi-colonnes"
 
-#: content_manager/blocks.py:426 content_manager/blocks.py:427
+#: content_manager/blocks.py:427 content_manager/blocks.py:428
 msgid "Page structure"
 msgstr "Structure de la page"
 
-#: content_manager/blocks.py:427
+#: content_manager/blocks.py:428
 msgid "Full width background"
 msgstr "Fond pleine largeur"
 
-#: content_manager/blocks.py:441
+#: content_manager/blocks.py:442
 msgid ""
 "Warning: Use HTML block with caution. Malicious code can compromise the "
 "security of the site."
